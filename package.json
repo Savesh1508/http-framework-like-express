@@ -1,0 +1,19 @@
+{
+  "name": "own-http-framework-similar-to-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "realizing_express_on_http.js",
+  "scripts": {
+    "start": "nodemon realizing_express_on_http"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.5.1"
+  }
+}
