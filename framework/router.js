@@ -25,7 +25,6 @@ module.exports = class Router {
   }
 
   put(path, handler) {
-    this.request('PUT', path, handler);
   }
 
   delete(path, handler) {

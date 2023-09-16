@@ -1,8 +1,8 @@
-const Router = require("../framework/router");
+const Router = require("../../framework/router.js");
 const {
   createUser,
   getUsers
-} = require("./user-controller");
+} = require("../controllers/user-controller.js");
 const router = new Router()
 
 router.get('/users', getUsers)
